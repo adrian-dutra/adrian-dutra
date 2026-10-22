@@ -11,6 +11,51 @@ Python · Django · Node.js · Kotlin · Oracle · PostgreSQL · RabbitMQ · Doc
 
 </div>
 
+<details>
+<summary>🇧🇷 <b>Português: clique para expandir</b></summary>
+
+## 💼 Sobre
+
+Sou Desenvolvedor Backend na **Cardway**, trabalhando em sistemas de back-office, pagamentos e integração com marketplaces para uma empresa brasileira de cartões e meios de pagamento. Entrei como estagiário em abril de 2024 e fui efetivado como Desenvolvedor Júnior em março de 2025, entregando mudanças em 20 serviços de produção construídos principalmente com Python/Django, Node.js e Kotlin sobre Oracle e PostgreSQL.
+A maior parte do meu trabalho conecta sistemas internos a plataformas externas: marketplaces, um bureau de crédito, a SEFAZ e ferramentas de atendimento.
+
+## 📈 Impacto na Cardway
+
+<!-- IMPACT-PT:START -->
+![Contribuições](https://img.shields.io/badge/Contribui%C3%A7%C3%B5es_no_GitLab-2.283-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-682-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Merge Requests](https://img.shields.io/badge/Merge_Requests-514-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Mergeados](https://img.shields.io/badge/Mergeados-488-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Code Reviews](https://img.shields.io/badge/Code_Reviews-45-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Dias ativos](https://img.shields.io/badge/Dias_ativos-342-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Projetos](https://img.shields.io/badge/Projetos-20-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+
+### Destaques
+
+- **Construí** do zero um serviço automatizado de **GNRE** (guia de recolhimento de tributos interestaduais) integrado à **SEFAZ** via web services SOAP e certificado digital, cobrindo schemas XML, envio em lote, consulta de resultado, monitoramento de erros e sincronização com o ERP (46 commits).
+- **Entreguei** integrações com marketplaces de ponta a ponta: a integração completa com a **Shopee** (pedidos, status logístico, etiquetas de envio com NF-e, webhooks) e um novo módulo no **Mercado Livre** para venda de produtos digitais (eSIM) com proteção contra venda abaixo do custo (66 commits, 46 merge requests).
+- **Reduzi** as requisições de token de autenticação em uma integração de pagamentos **de mais de 4.000 para 1 por execução**, e fortaleci integrações com parceiros de repasses, parcelas e liquidação de recebíveis com paginação, schedulers, upserts e correções de pool de conexões.
+
+<sub>Meu trabalho fica em um GitLab privado e self-hosted, por isso não aparece neste perfil do GitHub. Números agregados desde abril de 2024. Última atualização: outubro de 2026.</sub>
+<!-- IMPACT-PT:END -->
+
+## 🧩 O que eu construo
+
+- **🔌 Integrações externas**: APIs REST e webhooks conectando sistemas internos a marketplaces (Shopee, Mercado Livre), a um bureau de crédito (Serasa), a uma plataforma de notas fiscais eletrônicas e a ferramentas de atendimento (Zendesk e um chatbot no Botpress).
+- **🧾 Automação fiscal e tributária**: emissão de GNRE pela SEFAZ (SOAP, XML, certificado digital), download e filtragem de NF-e/CT-e e geração da DIMP.
+- **💳 Pagamentos e recebíveis**: pipelines de repasses, parcelas, transações e agenda de liquidação de recebíveis, com schedulers, paginação e atualizações idempotentes em Node.js e Kotlin/Spring.
+- **⚙️ Processamento assíncrono e serviços internos**: jobs em background com RabbitMQ e Celery, um gateway web seguro para os servidores FTPS da empresa e entrega containerizada com Docker e Jenkins.
+
+## 🔭 Explorando agora
+
+- Evoluir a arquitetura e a escalabilidade de sistemas backend
+- Construir integrações confiáveis e observáveis entre sistemas
+- Sistemas distribuídos e processamento assíncrono
+
+<sub>Stack e contato logo abaixo, na versão em inglês.</sub>
+
+</details>
+
 ---
 
 ## 💼 About
